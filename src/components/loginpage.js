@@ -13,8 +13,8 @@ const login = () => {
         <form className='max-w-[400px] w-full mx-auto border rounded-xl bg-white p-4'>
                  <h2 className='text-3xl font-bold text-center py-5 text-violet-600'>SIGNAL</h2> 
                  <div className='flex justify-between py-8'>
-                <button  className='border shadow-lg hover:shadow-xl px-6 py-2 relative flex items-center rounded-xl  '><a  classname='relative'href='https://app.aafp.org/sf/services/auth/sso/Apple_SSO?startURL='><AiFillApple /> Apple</a></button>
-                <button  className='border shadow-lg hover:shadow-xl px-6 py-2 relative flex items-center rounded-xl  '><a  classname='relative'href='https://www.facebook.com/login/'><AiFillFacebook />Facebook</a></button>
+                <button  className='border shadow-lg hover:shadow-xl px-6 py-2 relative flex items-center rounded-xl  '><a href='https://app.aafp.org/sf/services/auth/sso/Apple_SSO?startURL='><AiFillApple /> Apple</a></button>
+                <button  className='border shadow-lg hover:shadow-xl px-6 py-2 relative flex items-center rounded-xl  '><a href='https://www.facebook.com/login/'><AiFillFacebook />Facebook</a></button>
                 <button className='border shadow-lg hover:shadow-xl px-6 py-2 relative rounded-xl flex items-center'><a href='https://accounts.google.com/signin'><FcGoogle />Google </a> </button>
             </div>
            <div className=' flex flex-col p-4  '>
