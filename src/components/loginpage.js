@@ -30,7 +30,7 @@ const login = () => {
             <div><p className='flex items-center'>
             <input className= 'mr-2 relative'type="checkbox"/> Save password </p>
             New user?
-           <a href ="/about"> <button className='py-6 relative'>About</button></a>
+           <a href ="/create"> <button className='py-6 relative'>Create new account</button></a>
             </div>
         </form>
     </div>
