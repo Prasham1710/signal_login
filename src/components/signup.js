@@ -16,14 +16,14 @@ const signup = () => {
             <div className=' flex flex-col p-4  '>
             <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='last Name'/></div> 
             <div className=' flex flex-col p-4  '>
-            <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="email" placeholder='username@gmail.com' /><div><button><p className=' text-blue-600 underline decoration-solid ' >use my current mail id </p></button></div>
+            <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="email" placeholder='username@gmail.com' /><div><button><p className=' text-blue-600 underline decoration-solid relative ' >use my current mail id </p></button></div>
             </div>
             <div className=' flex '>
             <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='Password'/>
-             <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='confirm '/></div> 
+             <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" placeholder='Confirm password '/></div> 
                <div><p className='flex items-center'>
             <input className= 'mr-2 relative'type="checkbox"/> Save password </p></div>
-            <div className='relative flex flex-col '><button  className=' w-15 text-blue-600 hover :underline decoration-solid py-2' >sign in instead </button>
+            <div className='relative flex flex-col '><div><button  className=' w-15 text-blue-600 underline decoration-solid py-2' >sign in instead </button></div>
             <button className = 'relative border w-[30%] rounded-xl my-9 py-1  bg-blue-700 hover:bg-indigo-500 text-white'> Next </button></div>
             
             </form>  </div>

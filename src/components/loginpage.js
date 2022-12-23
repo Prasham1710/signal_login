@@ -2,6 +2,7 @@ import React from 'react'
 import {FcGoogle} from 'react-icons/fc'
 import {AiFillApple, AiFillFacebook} from 'react-icons/ai'
 import Back from '../assets/background.jpg'
+import{Link} from 'react-router-dom'
 
 const login = () => {
   return (
@@ -29,7 +30,7 @@ const login = () => {
             <div><p className='flex items-center'>
             <input className= 'mr-2 relative'type="checkbox"/> Save password </p>
             New user?
-            <button className='relative'><p >Create an account </p></button>
+           <a href ="/about"> <button className='py-6 relative'>About</button></a>
             </div>
         </form>
     </div>
