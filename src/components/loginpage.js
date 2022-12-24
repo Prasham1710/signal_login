@@ -29,8 +29,8 @@ const loginpage = () => {
             hover:bg-indigo-500 text-black' >Sign In </button>
             <div><p className='flex items-center'>
             <input className= 'mr-2 relative'type="checkbox"/> Save password </p>
-            New user? </div>
-           <a href ="/create"> <button className='py-6 relative'>Create new account</button></a>
+            New user?<a href ="/create"> <button className='py-6 relative'>Create new account</button></a> </div>
+           
            
         </form>
     </div>
