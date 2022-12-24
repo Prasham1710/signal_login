@@ -4,7 +4,7 @@ import {AiFillApple, AiFillFacebook} from 'react-icons/ai'
 import Back from '../assets/background.jpg'
 import{Link} from 'react-router-dom'
 
-const login = () => {
+const loginpage = () => {
   return (
    <div className='relative w-full h-screen  bg-blue-300 '><div className='hidden sm:block'></div>
         <img className='absolute w-full h-full object-cover mix-blend-overlay' src={Back} alt="/" />
@@ -29,9 +29,9 @@ const login = () => {
             hover:bg-indigo-500 text-black' >Sign In </button>
             <div><p className='flex items-center'>
             <input className= 'mr-2 relative'type="checkbox"/> Save password </p>
-            New user?
+            New user? </div>
            <a href ="/create"> <button className='py-6 relative'>Create new account</button></a>
-            </div>
+           
         </form>
     </div>
     </div> 
@@ -39,4 +39,4 @@ const login = () => {
   )
 }
 
-export default login
+export default loginpage
