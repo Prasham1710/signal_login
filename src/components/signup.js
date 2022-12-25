@@ -1,6 +1,6 @@
 import React from 'react'
 import Back from '../assets/background.jpg'
-const signup = () => {
+const Signup = () => {
   return (
     <div className='relative w-full h-screen  bg-blue-300 '><div className='hidden sm:block'></div>
         <img className='absolute w-full h-full object-cover mix-blend-overlay' src={Back} alt="/" />
@@ -31,4 +31,4 @@ const signup = () => {
   )
 }
 
-export default signup
+export default Signup
