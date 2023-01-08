@@ -5,7 +5,7 @@ import Signup from './components/Signup'
 const App = () => {
   return (
     <div>
-<BrowserRouter>
+     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Loginpage/>} />
         <Route path='/create' element={<Signup/>}/>
