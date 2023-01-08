@@ -5,14 +5,13 @@ import Signup from './components/Signup'
 const App = () => {
   return (
     <div>
-      <Loginpage/><BrowserRouter>
+<BrowserRouter>
       <Routes>
-
+        <Route path='/' element={<Loginpage/>} />
         <Route path='/create' element={<Signup/>}/>
       </Routes>
       </BrowserRouter>
-      <Signup/>
-      </div>
+    </div>
       
     
   )
