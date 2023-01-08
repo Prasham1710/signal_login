@@ -19,7 +19,7 @@
                         <button className='border shadow-lg hover:shadow-xl px-6 py-2 relative rounded-xl flex items-center'><a href='https://accounts.google.com/signin'><FcGoogle />Google </a> </button>
                     </div>
                   <div className=' flex flex-col p-4  '>
-                      <label >Username</label>
+                      <label >Username_</label>
                     <input className=' w-80 border relative  rounded-xl p-1 bg-gray-100' type="text" /></div>
                   <div className=' flex flex-col  p-4'> 
                     <label>Password</label>
